@@ -1,3 +1,4 @@
+/* General app styling */
 .App {
   text-align: center;
   display: flex;
@@ -14,11 +15,11 @@
 
 }
 
-
+/* Header styling */
 .header_main {
   width: 100vw;
   background-image: url("https://c4.wallpaperflare.com/wallpaper/896/217/285/blue-saturday-night-live-wallpaper-preview.jpg");
-  background-size: cover;                     
+  background-size: cover;                    
   background-repeat:   no-repeat;
   background-position: center center;
   color: #fff;
@@ -42,6 +43,7 @@
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
+/* Task form main */
 .taskform_main {
   text-align: left;
   background: #fff;
@@ -49,8 +51,6 @@
   width: 24vw;
   border-radius: 4px;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-  background: #3963ff;
-  color: #fff;
 }
 .taskform_form {
   display: flex;
@@ -61,17 +61,19 @@
   padding: 0.4rem;
 }
 .taskform_button {
+  background: #3963ff;
   border: none;
   padding: 0.6rem;
-  background: #fff;
+  color: #fff;
   border-radius: 4px;
   cursor: pointer;
-  margin: 8px 0;
 }
 .taskform_button:hover {
-  filter: brightness(0.8);
+  filter: brightness(1.2);
 }
 
+
+/* Task card styling */
 .taskcard_main {
   background: #fff;
   padding: 0.8rem 1rem;
@@ -105,3 +107,4 @@
 .taskcard_button:hover {
   background: #3963ff;
 }
+
